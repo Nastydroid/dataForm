@@ -31,9 +31,9 @@
 <p>
 	
 	<label for name="gender">gender</label><br/>
-	<input type="radio" value= "female"name="gender"/>
-	<input type="radio" value="male" name="gender"> 
-	<input type="radio" value="others" name="gender">
+	<input type="radio" value= "female"name="gender"/>female
+	<input type="radio" value="male" name="gender"> male
+	<input type="radio" value="others" name="gender">others
 </p>
 
 <p>
