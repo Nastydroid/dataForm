@@ -50,7 +50,7 @@
 </p>
 
 	<button type="submit">SUBMIT </button> </fieldset>
-</div>
+
 </form>
 </body>
 </html>
