@@ -29,12 +29,11 @@
 </p>
 
 <p>
+	
 	<label for name="gender">gender</label><br/>
-	<select name= "gender" size="1">
-	<option value="male">male</option>
-	<option value="female">female</option>
-	<option value="others">others</option>
-	</select>
+	<input type="radio" value= "female"name="gender"/>
+	<input type="radio" value="male" name="gender"> 
+	<input type="radio" value="others" name="gender">
 </p>
 
 <p>
@@ -46,7 +45,12 @@
 <p>
 
 	<label for ='message'>your message</label><br/>
-	<input type ="text" name="message" placeholder='enter your message'/>
+	<textarea name="message" cols="30" rows="5"></textarea>
+</p>
+	
+<p>
+	<input type="checkbox" name="check" required/>by clicking this box it shows you have accepted the terms and conditions
+	
 </p>
 
 	<button type="submit">SUBMIT </button> </fieldset>
