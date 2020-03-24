@@ -6,8 +6,9 @@
 	$email_ad=$_POST["email"];
 	$sex=$_POST["gender"];
 	$user_text=$_POST["message"];
+	$user_class=$_POST["class"];
 
-	$input= "firstname:" . $firstName .PHP_EOL . "lastname:" .$lastName .PHP_EOL. "gender:". $sex  .PHP_EOL. "email:" . $email_ad . PHP_EOL. "user_message:".  $user_text  ;
+	$input= "firstname:" . $firstName .PHP_EOL . "lastname:" .$lastName .PHP_EOL. "gender:". $sex  .PHP_EOL. "email:" . $email_ad . PHP_EOL. "user_course:". $user_class .PHP_EOL. "user_message:".  $user_text  ;
 
 	$fp = fopen("$firstName.txt", "w");
 
