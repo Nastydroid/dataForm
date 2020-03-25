@@ -15,7 +15,6 @@
 
 <form name='contact' action= "config.php" method="POST" autocomplete="off">
 	<fieldset><legend>CONTACT ME</legend>
-<div class="yellow-background">
 <p>
 	<label for name="first_name">first name</label><br />
 	<input type = "text" name= "first_name" placeholder = "enter your first name:"/>
